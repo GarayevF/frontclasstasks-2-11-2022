@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Head{
+    padding: 2rem 8rem;
+    border-bottom: 1px solid gray;
+}
+
+.header-logo{
+    width: 12%;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav a{
+    color: #fff;
+    margin: 0 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-logo img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.header-icons i{
+    font-size: 40px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+#Content .title{
+    font-size: 40px;
+    color: #fff;
+    margin: 2rem 0 4rem 0;
+}
+
+#Content{
+    padding: 2rem 8rem;
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 30%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+
+.box-text{
+    text-align: left;
+}
+
+.box-text-title h1{
+    color: #175564;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.box-text-title h3{
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.box-img{
+    border-bottom: 1px solid gray;
+}
+
+.box-img img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.box-text-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pricediv{
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.pricecolor{
+    height: 30px;
+    width: 30px;
+    background-color: #242222;
+    border-radius: 50%;
+}

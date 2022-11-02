@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#Head{
+    padding: 2rem 10rem;
+    background-color: #372B70;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.logo{
+    width: 10%;
+}
+
+.logo img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#Content{
+    padding: 2rem 10rem;
+    background-color: #372B70;
+}
+
+
+.content-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-left{
+    width: 40%;
+}
+
+.content-left h1{
+    font-size: 40px;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.content-left h3{
+    font-size: 21px;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.imagediv{
+    width: 100%;
+    padding: 2rem 0;
+    border-radius: 2rem;
+}
+
+.imagediv img{
+    width: 100%;
+}
+
+
+#explore{
+    background-color: #fff;
+    padding: 13px 28px;
+    color: rgb(59, 59, 59);
+    border-radius: 2rem;
+    margin-right: 10px;
+}
+
+#contact{
+    color: #fff;
+    padding: 13px 28px;
+    border-radius: 2rem;
+    border: 2px solid white;
+}
+
+#Service{
+    padding: 4rem 10rem;
+    background-color: #FEFEFE;
+    text-align: center;
+}
+
+.service-title-div{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.service-description{
+    color: #747ED1;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.service-title{
+    color: #343f52;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.service-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-boxes .box{
+    padding: 2rem 2rem;
+    text-align: center;
+    width: 23%;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.service-boxes .box a{
+    color:#747ED1;
+}
+
+.icondiv i{
+    font-size: 30px;
+    color: #fff;
+}
+
+.icondiv{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.icondiv div{
+    width: 70px;
+    height: 70px;
+    padding: 1.2rem;
+    border-radius: 50%;
+    background-color: #747ED1;
+    margin: 0 auto;
+}
+
+
+.boxtextdiv h2{
+    color: #343f52;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.boxtextdiv h4{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #60697b;
+}
